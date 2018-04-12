@@ -6,7 +6,7 @@ Created on Mon Feb  5 16:42:50 2018
 """
 #Testing file for problem 4 Lab 1, Overlapping Numbers
 import unittest
-from src import overlapping_numbers
+from src import validate_overlapping
 class OverlappingNumbersTest(unittest.TestCase):
     string_from_user = ""
     def setup(self):
