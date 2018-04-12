@@ -6,7 +6,7 @@ Created on Mon Feb  5 13:46:48 2018
 """
 #Unit testing for problem 5 from LabB-B.1
 import unittest
-from reversed_string import reverse_string
+from src import reverse_string
 class ReversedStringTest(unittest.TestCase):
     string_from_user = ""
     def setup(self):
