@@ -137,4 +137,4 @@ def play(list_in=None,base_num = None):
             if i == base_num:
                 return attemps
         return -1;
-play()
+#play()
