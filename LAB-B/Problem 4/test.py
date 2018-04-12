@@ -22,4 +22,6 @@ class OverlappingNumbersTest(unittest.TestCase):
         self.assertEqual(validate_overlapping(13),True)
     def test_not_happy_not_prime(self):
        self.assertEqual(validate_overlapping(4),False)
-unittest.main()
+    
+if __name__ == '__main__':
+    unittest.main()
