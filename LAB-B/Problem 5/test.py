@@ -22,4 +22,5 @@ class ReversedStringTest(unittest.TestCase):
     def test_with_long_string(self):
         self.assertEqual(reverse_string("Esta es una cadena de mas de ocho palabras"),"palabras ocho de mas de cadena una es Esta")
         
-unittest.main()
+if __name__ == '__main__':
+    unittest.main()
